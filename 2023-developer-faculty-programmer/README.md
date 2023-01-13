@@ -118,8 +118,8 @@ $ snap list
 В появившемся списке приложений, установленных через магазин приложений [Snap Store](https://en.wikipedia.org/wiki/Snap_(software) "Ссылка на материал из Википедии"), должна находиться следующая строка:
 
 ```bash
-  Name                       Version                     Rev    Tracking         Publisher     Notes
-$ intellij-idea-community    2022.3.1                    405    latest/stable    jetbrains✓    classic
+Name                       Version                     Rev    Tracking         Publisher     Notes
+intellij-idea-community    2022.3.1                    405    latest/stable    jetbrains✓    classic
 ```
 
 // TODO - Описать интеграцию Spring в IntelliJ IDEA Community Edition.
