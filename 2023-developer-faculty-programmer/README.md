@@ -97,7 +97,32 @@ $ javac --version
 javac 11.0.2
 ```
 
-// TODO - Описать установку IntelliJ IDEA Community Edition на Linux Ubuntu.
+### Установка IntelliJ IDEA Community Edition
+
+__IntelliJ IDEA Community Edition__ – бесплатная версия интегрированной среды разработки на базе открытого исходного кода от JetBrains. Хотя IntelliJ IDEA Community Edition обладает ограниченным функционалом, по сравнению с платной Ultimate версией, в ней реализована полная поддержка Java и ряда других языков программирования, включены инструменты тестирования, а также интеграция с системами контроля версий.
+
+Для установки IntelliJ IDEA Community Edition на операционной системе Linux Ubuntu, откройте окно терминала и выполните поочередно следующие команды:
+
+```bash
+$ sudo apt update
+$ sudo apt install snapd
+$ sudo snap install intellij-idea-community --classic
+```
+
+После окончания установки IntelliJ IDEA Community Edition необходимо проверить, прошла ли она успешно. Для этого введите в окне терминала команду:
+
+```bash
+$ snap list
+```
+
+В появившемся списке приложений, установленных через магазин приложений [Snap Store](https://en.wikipedia.org/wiki/Snap_(software) "Ссылка на материал из Википедии"), должна находиться следующая строка:
+
+```bash
+  Name                       Version                     Rev    Tracking         Publisher     Notes
+$ intellij-idea-community    2022.3.1                    405    latest/stable    jetbrains✓    classic
+```
+
+// TODO - Описать интеграцию Spring в IntelliJ IDEA Community Edition.
 
 [к содержанию](https://github.com/dfedoroff/diplomas/tree/main/2023-developer-faculty-programmer#-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5)
 
