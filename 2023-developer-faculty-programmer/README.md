@@ -29,6 +29,8 @@
 diplomas/
 └─ 2023-developer-faculty-programmer/
    ├─ images/
+   │  ├─ spring_initializr_explore_page.png
+   │  └─ spring_initializr_main_page.png
    ├─ code-examples/
    └─ README.md
 ```
