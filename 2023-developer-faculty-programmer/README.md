@@ -126,22 +126,15 @@ intellij-idea-community   2022.3.1   405   latest/stable   jetbrains✓   classi
 
 ### 1.3. Создание приложения
 
-Для создания проекта на основе Spring Boot необходимо открыть сайт [Spring Initializer](https://start.spring.io/ "Ссылка на сайт Spring Initializer") и заполнить информацию о проекте, указав следующие параметры:
+Для создания проекта на основе Spring Boot необходимо открыть сайт [Spring Initializr](https://start.spring.io/ "Ссылка на сайт Spring Initializr") и заполнить информацию о проекте, указав следующие параметры:
 
-+ __Project__: Maven
-+ __Language__: Java
-+ __Spring Boot__: 3.0.1
-+ __Project Metadata__:
-    + _Group_: ru.gb
-    + _Artifact_: diploma
-    + _Name_: diploma
-    + _Description_: Diploma project for Spring Boot
-    + _Package name_: ru.gb.diploma
-    + _Packaging_: Jar
-    + _Java_: 11
-+ __Dependencies__: Spring Web, Thymeleaf
+![](images/spring_initializr_main_page.png "Скриншот главной страницы сайта Spring Initializr")
 
-После того, как вы заполнили все требуемые поля, нажмите на кнопку `EXPLORE` внизу текущей web-страницы. В результате откроется новая страница, где будет показана структура созданного вами проекта. Нажмите на кнопку `DOWNLOAD` внизу страницы, чтобы скачать проект в виде zip-файла.
+После того, как вы заполнили все требуемые поля, нажмите на кнопку `EXPLORE` внизу текущей web-страницы. В результате откроется новая страница, где будет показана структура созданного вами проекта:
+
+![](images/spring_initializr_explore_page.png "Скриншот страницы сайта Spring Initializr после нажатия кнопки EXPLORE")
+
+Нажмите на кнопку `DOWNLOAD` внизу страницы, чтобы скачать проект в виде zip-файла.
 
 Теперь давайте подробнее рассмотрим параметры проекта.
 
